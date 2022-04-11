@@ -1,4 +1,5 @@
 # Just fibonacci numbers, using recursion
+# https://ru.hexlet.io/challenges/python_basics_fib_exercise
 
 def fib(n):
     if n <= 0:

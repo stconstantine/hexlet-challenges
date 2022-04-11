@@ -7,6 +7,7 @@
 # – In other cases, the number itself is added to the string
 # The function takes two parameters (begin and end) that define the beginning and end of the range (inclusive).
 # If the range is empty (when begin > end), then the function returns an empty string.
+# https://ru.hexlet.io/challenges/python_basics_fizzbuzz_exercise
 
 def fizz_buzz(begin, end):
     if begin > end:

@@ -1,4 +1,5 @@
 # Binary sum, but without using bin → int → bin conversions
+# https://ru.hexlet.io/challenges/python_basics_binary_sum_exercise
 
 def reverse_and_add_zeroes_for_binary_sum(a: str, b: str) -> (str, str):
     if a > b:
