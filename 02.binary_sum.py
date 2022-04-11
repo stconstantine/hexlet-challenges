@@ -1,3 +1,5 @@
+# Binary sum, but without using bin → int → bin conversions
+
 def reverse_and_add_zeroes_for_binary_sum(a: str, b: str) -> (str, str):
     if a > b:
         longest = a[::-1]
