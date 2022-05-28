@@ -2,17 +2,20 @@
 
 from time import time
 
+
 def is_power_of_three(number):
     for i in range(0, int(pow(number, 1/3)+1)):
         if 3 ** i == number:
             return True
     return False
 
+
 def is_power_of_three_h(number):
     counter = 1  # 3 ** 0
     while counter < number:
         counter *= 3
     return counter == number
+
 
 N = 1
 while N < 1000000000000:
