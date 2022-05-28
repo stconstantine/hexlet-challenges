@@ -3,6 +3,7 @@
 def reduct_angle(angle):
     return angle % 360
 
+
 def diff(a1: int, a2: int):
     a1 = reduct_angle(a1)
     a2 = reduct_angle(a2)

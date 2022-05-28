@@ -4,10 +4,10 @@
 def reverse_and_add_zeroes_for_binary_sum(a: str, b: str) -> (str, str):
     if a > b:
         longest = a[::-1]
-        shortest = b[::-1] + "0" * (len(a)-len(b))
+        shortest = b[::-1] + "0" * (len(a) - len(b))
     elif b > a:
         longest = b[::-1]
-        shortest = a[::-1] + "0" * (len(b)-len(a))
+        shortest = a[::-1] + "0" * (len(b) - len(a))
     else:
         longest = a[::-1] + "0"
         shortest = b[::-1] + "0"

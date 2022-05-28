@@ -17,7 +17,7 @@ def fizz_buzz(begin, end):
     second_number = 5
     result = ""
 
-    for i in range(begin, end+1):
+    for i in range(begin, end + 1):
         if i % (first_number * second_number) == 0:
             add = "FizzBuzz"
         elif i % first_number == 0:
